@@ -51,7 +51,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: '+41 XX XXX XX XX',
+      details: 'admin@custodia-privacy.com',
       description: 'Speak directly with our team during business hours'
     },
     {

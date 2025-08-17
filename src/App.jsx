@@ -9,6 +9,9 @@ import Contact from './pages/Contact'
 import CustodiaDev from './pages/CustodiaDev'
 import CustodiaPrivacy from './pages/CustodiaPrivacy'
 import CustodiaCohort from './pages/CustodiaCohort'
+import Blog from './pages/Blog'
+import Privacy from './pages/Privacy'
+import Terms from './pages/Terms'
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
             <Route path="/custodia-dev" element={<CustodiaDev />} />
             <Route path="/custodia-privacy" element={<CustodiaPrivacy />} />
             <Route path="/custodia-cohort" element={<CustodiaCohort />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>
         <Footer />
