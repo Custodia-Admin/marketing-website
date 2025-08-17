@@ -34,25 +34,48 @@ const Contact = () => {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    
-    setIsSubmitting(false)
-    setIsSubmitted(true)
+    try {
+      const response = await fetch('https://formspree.io/f/mjkodwoq', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          service: formData.service,
+          message: formData.message,
+          _subject: `New contact form submission from ${formData.name}`,
+        }),
+      })
+
+      if (response.ok) {
+        setIsSubmitting(false)
+        setIsSubmitted(true)
+      } else {
+        throw new Error('Form submission failed')
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error)
+      setIsSubmitting(false)
+      // You could add error state handling here if needed
+      alert('There was an error sending your message. Please try again or email us directly.')
+    }
   }
 
   const contactInfo = [
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'hello@custodia.com',
+      details: 'admin@custodia-privacy.com',
       description: 'Send us an email and we\'ll respond within 24 hours'
     },
     {
       icon: Phone,
-      title: 'Call Us',
-      details: 'admin@custodia-privacy.com',
-      description: 'Speak directly with our team during business hours'
+      title: 'Contact Us',
+      details: 'Available upon request',
+      description: 'We\'ll provide phone contact during consultation scheduling'
     },
     {
       icon: MapPin,
