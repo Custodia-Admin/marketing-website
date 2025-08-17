@@ -339,7 +339,7 @@ const Contact = () => {
               </p>
 
               <div className="space-y-8">
-                {reasons.map((reason, index) => {
+                {reasons.map((reason, _index) => {
                   const Icon = reason.icon
                   return (
                     <div key={reason.title} className="flex items-start space-x-4">

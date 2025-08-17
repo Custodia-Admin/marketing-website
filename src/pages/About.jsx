@@ -51,33 +51,7 @@ const About = () => {
     }
   ]
 
-  const milestones = [
-    {
-      year: '2020',
-      title: 'Company Founded',
-      description: 'Started as a boutique consulting firm in Switzerland'
-    },
-    {
-      year: '2021',
-      title: 'First Major Client',
-      description: 'Delivered comprehensive AI governance framework for Fortune 500 company'
-    },
-    {
-      year: '2022',
-      title: 'Team Expansion',
-      description: 'Grew to 25+ specialists across development, privacy, and project management'
-    },
-    {
-      year: '2023',
-      title: 'Global Reach',
-      description: 'Expanded services to clients across Europe, North America, and Asia'
-    },
-    {
-      year: '2024',
-      title: 'Innovation Hub',
-      description: 'Launched R&D division focusing on AI ethics and privacy-preserving technologies'
-    }
-  ]
+
 
   return (
     <div className="pt-16 md:pt-20">
