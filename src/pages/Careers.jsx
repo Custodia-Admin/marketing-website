@@ -243,7 +243,7 @@ const Careers = () => {
                 Get In Touch
               </Link>
               <a
-                href="mailto:admin@custodia-privacy.com?subject=Future Career Opportunities"
+                href="mailto:contact@custodia-privacy.com?subject=Future Career Opportunities"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-8 rounded-lg transition-all duration-200 whitespace-nowrap inline-flex items-center justify-center"
               >
                 Send Resume

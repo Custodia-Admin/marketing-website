@@ -185,7 +185,7 @@ const Resources = () => {
                         Check your email for the download link. If you don't see it, check your spam folder.
                       </p>
                       <p className="text-sm text-gray-400">
-                        Need help? Contact us at admin@custodia-privacy.com
+                        Need help? Contact us at contact@custodia-privacy.com
                       </p>
                     </div>
                   )}
@@ -310,7 +310,7 @@ const Resources = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </a>
               <a
-                href="mailto:admin@custodia-privacy.com?subject=Custom Privacy Solutions"
+                href="mailto:contact@custodia-privacy.com?subject=Custom Privacy Solutions"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-8 rounded-lg transition-all duration-200 whitespace-nowrap inline-flex items-center justify-center"
               >
                 <Mail className="mr-2 w-5 h-5" />
