@@ -361,11 +361,11 @@ const CustodiaDev = () => {
               Let's discuss your project and create a custom solution that drives your business forward.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact" className="bg-white text-blue-600 hover:bg-gray-100 font-medium py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 whitespace-nowrap">
+              <Link to="/contact" className="bg-white text-blue-600 hover:bg-gray-100 font-medium py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 whitespace-nowrap inline-flex items-center justify-center">
                 Start Project
-                <ArrowRight className="ml-2 w-5 h-5 inline" />
+                <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
-              <Link to="/services" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 font-medium py-3 px-8 rounded-lg transition-all duration-200 whitespace-nowrap">
+              <Link to="/services" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 font-medium py-3 px-8 rounded-lg transition-all duration-200 whitespace-nowrap inline-flex items-center justify-center">
                 All Services
               </Link>
             </div>
