@@ -38,28 +38,16 @@ const About = () => {
 
   const team = [
     {
-      name: 'Alex Thompson',
-      role: 'CEO & Founder',
-      bio: 'Former tech executive with 15+ years in software development and AI governance.',
-      image: '/api/placeholder/300/300'
+      name: 'Federico Brooks',
+      role: 'Co-Founder & Product Manager',
+      bio: 'Federico has extensive experience as a Product Manager, specializing in building global AI governance and data privacy products that streamline compliance with privacy by design principles. As the founder of Custodia Privacy Consulting, he helps tech companies in the EU and US navigate complex regulatory landscapes.',
+      image: 'https://cdn.prod.website-files.com/66c45dfa4c9cdaa129981c13/66c50442f97ff0c190c9c761_profile.jpeg'
     },
     {
-      name: 'Sarah Chen',
-      role: 'CTO',
-      bio: 'Full-stack architect specializing in scalable cloud solutions and data privacy.',
-      image: '/api/placeholder/300/300'
-    },
-    {
-      name: 'Marcus Weber',
-      role: 'Head of Privacy',
-      bio: 'Data protection expert with deep knowledge of European and global privacy regulations.',
-      image: '/api/placeholder/300/300'
-    },
-    {
-      name: 'Elena Rodriguez',
-      role: 'Project Director',
-      bio: 'Agile methodology expert with a track record of delivering complex projects on time.',
-      image: '/api/placeholder/300/300'
+      name: 'Thomas Brooks',
+      role: 'Co-Founder & Business Development',
+      bio: 'Tom Brooks combines expertise in the pharmaceutical, cultural, and technology sectors to drive growth and innovation. As the founder of Brick42, a Swiss company supplying high-quality active pharmaceutical ingredients (APIs), he ensures reliability in a competitive market.',
+      image: 'https://cdn.prod.website-files.com/66c45dfa4c9cdaa129981c13/67541a41d5a3be4834844a37_68488033_10156978142721888_3017958306401484800_n.jpg'
     }
   ]
 
@@ -106,8 +94,8 @@ const About = () => {
                 About <span className="gradient-text">Custodia</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8">
-                We're a Swiss-based technology consulting firm at the intersection of 
-                innovation, privacy, and excellence.
+                A Swiss-based data privacy, AI and risk intelligence consulting firm, 
+                specializing in helping tech companies streamline data privacy compliance.
               </p>
             </motion.div>
           </div>
@@ -130,8 +118,9 @@ const About = () => {
               </div>
               <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
               <p className="text-gray-300">
-                To empower businesses with cutting-edge technology solutions while ensuring 
-                the highest standards of privacy, security, and ethical practices.
+                Collaborate with your teams to develop practices, tooling, processes to make 
+                Data Privacy as smooth as butter. Our mission is to help you take back control 
+                of your data, and your time.
               </p>
             </motion.div>
 
@@ -162,10 +151,10 @@ const About = () => {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mx-auto mb-6">
                 <Heart className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-2xl font-bold mb-4">Our Purpose</h2>
+              <h2 className="text-2xl font-bold mb-4">Our Values</h2>
               <p className="text-gray-300">
-                To create technology solutions that not only drive business success but 
-                also contribute to a more secure and privacy-conscious digital world.
+                <strong>Viribus unitis</strong> - Data Privacy, governance, security require intrinsic and deep collaboration.<br/><br/>
+                <strong>Propter Se</strong> - We value privacy for its own intrinsic value.
               </p>
             </motion.div>
           </div>

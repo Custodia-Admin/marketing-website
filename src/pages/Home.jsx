@@ -98,11 +98,11 @@ const Home = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/services" className="btn-primary text-lg px-8 py-4">
-                  Explore Services
+                  Our Services
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
                 <Link to="/contact" className="btn-secondary text-lg px-8 py-4">
-                  Get Consultation
+                  Get Started
                 </Link>
               </div>
             </motion.div>
@@ -273,11 +273,11 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn-primary text-lg px-8 py-4">
-                Start Your Project
+                Start Project
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
               <Link to="/about" className="btn-secondary text-lg px-8 py-4">
-                Learn About Us
+                About Us
               </Link>
             </div>
           </motion.div>
