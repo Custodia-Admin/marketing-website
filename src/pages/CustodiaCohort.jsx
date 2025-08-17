@@ -164,11 +164,11 @@ const CustodiaCohort = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact" className="btn-primary text-lg px-8 py-4">
-                  Optimize Your Projects
+                  Get Started
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Link>
                 <Link to="/services" className="btn-secondary text-lg px-8 py-4">
-                  View All Services
+                  All Services
                 </Link>
               </div>
             </motion.div>
@@ -458,12 +458,12 @@ const CustodiaCohort = () => {
               solution that drives results for your team.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact" className="bg-white text-purple-600 hover:bg-gray-100 font-medium py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105">
-                Get Started Today
+              <Link to="/contact" className="bg-white text-purple-600 hover:bg-gray-100 font-medium py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 whitespace-nowrap">
+                Get Started
                 <ArrowRight className="ml-2 w-5 h-5 inline" />
               </Link>
-              <Link to="/services" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-purple-600 font-medium py-3 px-8 rounded-lg transition-all duration-200">
-                View All Services
+              <Link to="/services" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-purple-600 font-medium py-3 px-8 rounded-lg transition-all duration-200 whitespace-nowrap">
+                All Services
               </Link>
             </div>
           </motion.div>

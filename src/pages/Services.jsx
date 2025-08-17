@@ -346,11 +346,11 @@ const Services = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn-primary text-lg px-8 py-4">
-                Start Your Project
+                Start Project
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
               <Link to="/about" className="btn-secondary text-lg px-8 py-4">
-                Learn About Us
+                About Us
               </Link>
             </div>
           </motion.div>
