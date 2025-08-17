@@ -52,10 +52,10 @@ const Privacy = () => {
                   <li>Contact us through our website forms</li>
                   <li>Subscribe to our newsletter or blog updates</li>
                   <li>Request consultations or services</li>
-                  <li>Communicate with us via email or phone</li>
+                  <li>Communicate with us via email</li>
                 </ul>
                 <p>
-                  This may include your name, email address, company information, phone number, and any other information you choose to provide.
+                  This may include your name, email address, company information, and any other information you choose to provide.
                 </p>
               </div>
             </motion.div>
@@ -185,7 +185,7 @@ const Privacy = () => {
                 <div className="bg-dark-800 rounded-lg p-6 space-y-4">
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-primary-400" />
-                    <span>admin@custodia-privacy.com</span>
+                    <span>contact@custodia-privacy.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-primary-400" />

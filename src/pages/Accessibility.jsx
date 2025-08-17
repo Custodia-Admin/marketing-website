@@ -255,7 +255,7 @@ const Accessibility = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center justify-center space-x-3">
                   <Mail className="w-5 h-5 text-primary-400" />
-                  <span>admin@custodia-privacy.com</span>
+                  <span>contact@custodia-privacy.com</span>
                 </div>
                 <div className="flex items-center justify-center space-x-3">
                   <MapPin className="w-5 h-5 text-primary-400" />

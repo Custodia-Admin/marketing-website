@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { 
   Mail, 
-  Phone, 
   MapPin, 
   Clock, 
   Send,
   CheckCircle,
   MessageSquare,
   Calendar,
-  Users
+  Users,
+  Zap
 } from 'lucide-react'
 
 const Contact = () => {
@@ -68,14 +68,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'admin@custodia-privacy.com',
+      details: 'contact@custodia-privacy.com',
       description: 'Send us an email and we\'ll respond within 24 hours'
     },
     {
-      icon: Phone,
-      title: 'Contact Us',
-      details: 'Available upon request',
-      description: 'We\'ll provide phone contact during consultation scheduling'
+      icon: Zap,
+      title: 'Quick Response',
+      details: 'Within 24 hours',
+      description: 'Fast response times for all inquiries and consultations'
     },
     {
       icon: MapPin,

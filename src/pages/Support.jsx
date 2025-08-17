@@ -10,7 +10,7 @@ const Support = () => {
       title: 'Email Support',
       description: 'Get detailed answers to your privacy and AI governance questions.',
       action: 'Send Email',
-      link: 'mailto:admin@custodia-privacy.com',
+      link: 'mailto:contact@custodia-privacy.com',
       responseTime: '24-48 hours'
     },
     {
@@ -314,7 +314,7 @@ const Support = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:admin@custodia-privacy.com?subject=Support Request"
+                href="mailto:contact@custodia-privacy.com?subject=Support Request"
                 className="bg-white text-purple-600 hover:bg-gray-100 font-medium py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 whitespace-nowrap inline-flex items-center justify-center"
               >
                 <Mail className="mr-2 w-5 h-5" />

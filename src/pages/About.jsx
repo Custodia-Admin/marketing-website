@@ -207,8 +207,8 @@ const About = () => {
         </div>
       </section>
 
-      {/* Timeline Section */}
-      <section className="section-padding bg-dark-800">
+      {/* Timeline Section - Hidden */}
+      {/* <section className="section-padding bg-dark-800">
         <div className="container-custom">
           <div className="text-center mb-16">
             <motion.div
@@ -250,7 +250,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Team Section */}
       <section className="section-padding bg-dark-900">
@@ -275,7 +275,7 @@ const About = () => {
             </motion.div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -297,8 +297,8 @@ const About = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-700">
+      {/* Stats Section - Hidden */}
+      {/* <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-700">
         <div className="container-custom">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <motion.div
@@ -339,7 +339,7 @@ const About = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
